@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>codelab</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="banner">
+            <div class="banner-text">
+                <h1>CODELAB</h1>
+                <p><b>This is a open community for coder.<br>Here you get problems for pratice and project done by other membare.
+                <br>We will soon update you with some mind blowing feature.<br> SO, STAY TUNE.</b></p>
+                <div class="banner-btn">
+                    <a href="#prg"><span></span>EXPLORE</a>
+                </div>
+            </div>
+        </section>
+        <div id="sidenav">
+            <nav>
+                <ul>
+                    <li><a href="#banner">HOME</a></li>
+                    <li><a href="#prg">TOP CODE</a></li>
+                    <li><a href="#prm">PROBLEMS OF THE DAY</a></li>
+                    <li><a href="#idea">YOUR IDEA</a></li>
+                    <li><a href="#team">OUR TEAM</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menubtn" id="menu">
+            <img src="menu.png">
+        </div>
+        <section id="prg">
+            <div class="titel-text">
+                <h1 class="t1">TOP <span>CODE</span></h1>
+                <h1 class="t2">OF <span> THE WEEK</span></h1>
+            </div>
+            <div class="codelist">
+                <ul>
+                    <li><a href="4">Code 1</a></li>
+                    <li><a href="4">Code 2</a></li>
+                    <li><a href="4">Code 3</a></li>
+                    <li><a href="4">Code 4</a></li>
+                    <li><a href="4">Code 5</a></li>
+                </ul>
+            </div>
+            <div class="endtext1">
+                <h3><span>QUTOE </span> OF THE <span>DAY</span></h3>
+                <h4>First, solve the problem. <span>Then, write the code.</span></h4>
+            </div>
+        </section>
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sidenav = document.getElementById("sidenav")
+            var menu = document.getElementById("menu")
+            sidenav.style.right = "-250px";
+            menubtn.onclick = function() {
+                if (sidenav.style.right == "-250px"){
+                    sidenav.style.right = "0";
+                }
+                else {
+                    sidenav.style.right = "-250px";
+                }
+            }
+        </script>
+        <section id="prm">
+            <div class="titel-text1">
+                <h1 class="t1">PROBLEMS <span>OF</span></h1>
+                <h1 class="t2">THE<span> DAY</span></h1>
+            </div>
+            <div class="codelist1">
+                <ul>
+                    <li><a href="4">PROBLEM 1</a></li>
+                    <li><a href="4">PROBLEM 2</a></li>
+                    <li><a href="4">PROBLEM 3</a></li>
+                    <li><a href="4">PROBLEM 4</a></li>
+                    <li><a href="4">PROBLEM 5</a></li>
+                </ul>
+            </div>
+            <div class="endtext2">
+                <h3><span>EAT </span>SLEEP</h3>
+                <h4>CODE AND <span>REPEAT......</span></h4>
+            </div>
+        </section>
+        <section id="idea">
+            <div class="titel-text2">
+                <h1 class="t1"><span>YOUR</span></h1>
+                <h1 class="t2">IDEA</h1>
+                </div>
+                <div class="details">
+                    <div class="dleft">
+                        <form class="frm">
+                            <label>NAME</label>
+                            <input type="text" required>
+                            <label>EMAIL</label>
+                            <input type="email" required>
+                            <label>OBJECTIVE</label>
+                            <input type="text" required>
+                            <label>LANGUAGE USED</label>
+                            <input type="text" required>
+                        </form>
+                    </div>
+                    <div class="dright">
+                        <form action="" class="frm1">
+                            <label>CODE AREA</label>
+                            <textarea rows="10" placeholder="Write your code here"></textarea>
+                            <button type="submit"><b>SUBMIT</b></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="endtext3">
+                    <h3><span>ONE MAN  </span>CAN</h3>
+                    <h4>CHANGE THE <span>WORLD.</span></h4>
+                </div>
+        </section>
+        <section id="team">
+            <div class="titel-text3">
+                <h1 class="t1"><span>OUR</span></h1>
+                <h1 class="t2">TEAM</h1>
+                </div>
+                <div class="pro">
+                    <div class="pr1">
+                        <img src="ayush.jpg">
+                        <h1>AYUSH RAJ</h1>
+                        <ul>
+                            <li><a href="https://www.instagram.com/ayush_raj_18832/" target="_blank"><img src="instagram.png" alt=""></a></li>
+                            <li><a href="https://www.linkedin.com/in/ayush-raj-29b421209" target="_blank"><img src="linkedin.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="pr2">
+                        <img src="rahul.jpg">
+                        <h1>RAHUL KUMAR</h1>
+
+                        <ul>
+                            <li><a href="https://www.instagram.com/raahul181920/?igshid=ZDdkNTZiNTM%3D" target="_blank"><img src="instagram.png" alt=""></a></li>
+                            <li><a href="https://www.linkedin.com/in/raahul-kr-a9a52a261/" target="_blank"><img src="linkedin.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="pr3">
+                        <img src="priya.jpg">
+                        <h1>PRIYA TIWARI </h1>
+                        <ul>
+                            <li><a href="https://www.instagram.com/priyatiwari.10/" target="_blank"><img src="instagram.png" alt=""></a></li>
+                            <li><a href="https://www.linkedin.com/in/priya-tiwari-49601b24b/" target="_blank"><img src="linkedin.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="endtext4">
+                    <h3>THANK <span>YOU</span></h3>
+                    <h4>VISIT <span>AGAIN.</span></h4>
+                </div>
+        </section>
+    </body>
+</html>
